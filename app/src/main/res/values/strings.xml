@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AndroidRuntimePermissions</string>
+    <string name="open_camera_preview_activity">打开CameraPreviewActivity</string>
+    <string name="open_contact_activity">打开ContactActivity</string>
+    <string name="back">返回</string>
+    <string name="camera_unavailable"><b>相机无法打开</b>\n当相机不可用时(如该相机已经在使用中)或者系统拒绝访问(如禁止相机访问)才会发生这种情况.</string>
+    <string name="permission_camera_rationale">在CameraPreviewActivity页面需要使用Camera权限.</string>
+    <string name="ok">确定</string>
+    <string name="permission_available_camera">Camera权限授予成功，可以查看Camera预览页面.</string>
+    <string name="permissions_not_granted">权限未授予.</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="show_contact">显示联系人</string>
+    <string name="contacts_empty">没有联系人</string>
+    <string name="contacts_string">总共联系人个数: %1$,d\n第一位联系人:<b>%2$s</b></string>
+    <string name="permission_contacts_rationale">在ContactsActivity页面需要Contacts权限</string>
+    <string name="permission_available_contacts">联系人权限授予成功，可以查看ContactsActivity页面</string>
+</resources>

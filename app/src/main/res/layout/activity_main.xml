@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pchlgang.android.system.runtimepermissions.MainActivity"
+    android:paddingLeft="@dimen/horizontal_page_margin"
+    android:paddingTop="@dimen/vertical_page_margin"
+    android:paddingRight="@dimen/horizontal_page_margin"
+    android:paddingBottom="@dimen/vertical_page_margin">
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_camera_preview_activity"
+        android:textAllCaps="false"
+        android:onClick="openCameraPreview"/>
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_contact_activity"
+        android:textAllCaps="false"
+        android:onClick="openContact"/>
+</LinearLayout>
